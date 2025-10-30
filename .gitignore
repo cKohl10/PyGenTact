@@ -5,3 +5,4 @@ videos/
 releases/
 procedural_skin_addon/modifiers/
 .env/
+*.zip
