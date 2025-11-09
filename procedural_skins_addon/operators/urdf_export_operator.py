@@ -104,7 +104,7 @@ class URDFExportOperator(Operator, ExportHelper):
     <xacro:property name="sensor_radius" value="0.0" /> <!-- [m] -->
 
     <!-- Included URDF Files (NEEDED FOR BASE SKIN UNIT) -->
-    <xacro:include filename="$(find gentact_descriptions)/urdf/skin/self-cap-base.xacro" />
+    <xacro:include filename="$(find gentact_descriptions)/robots/common/skin_unit_base.xacro" />
 
     <!-- Instantiate dermis once -->
     <xacro:dermis_base_macro
