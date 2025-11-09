@@ -115,7 +115,7 @@ class URDFExportOperator(Operator, ExportHelper):
     body_height="${body_height}"
     use_mesh_file="${use_mesh_file}"
     mesh_file="${mesh_file}">
-    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
     </xacro:dermis_base_macro>
 
         """
@@ -138,13 +138,13 @@ class URDFExportOperator(Operator, ExportHelper):
             instance_string = f"""
     <xacro:self_cap_sensor
         robot_namespace="${{namespace}}"
-        parent="{{namespace}}_skin"
+        parent="${{namespace}}_skin"
         sensor_number="{i}"
         sensor_radius="${{sensor_radius}}"
         sensor_length="0.0"
         normal_x="{vertex.normal.x}"
         normal_y="{vertex.normal.y}"
-        normal_z="{vertex.normal.z}"
+        normal_z="{vertex.normal.z}">
         <origin xyz="{vertex.pos.x} {vertex.pos.y} {vertex.pos.z}" rpy="{vertex.rpy.x} {vertex.rpy.y} {vertex.rpy.z}" />
     </xacro:self_cap_sensor>
             """
