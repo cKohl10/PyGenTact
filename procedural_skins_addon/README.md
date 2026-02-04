@@ -17,3 +17,4 @@ Each node is provided as an *Asset* and can be accessed through the *Asset Brows
    ![Preferences image](../resources/preferences.png)
 
 ### Usage
+Open an asset browser tab and drag and drop the desired layers onto your CAD model. A more detailed tutorial on how to create a skin unit is found [here]().
