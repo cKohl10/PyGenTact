@@ -29,7 +29,7 @@ Detailed instructions on how to import your skin unit to Isaac Sim can be found 
 
 
 # Making your first skin
-Tutorial video coming soon!
+[Tutorial video!](https://youtu.be/qH5VpunpglI)
 <!-- 
 # Tips and tricks
 
