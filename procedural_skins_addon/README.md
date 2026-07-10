@@ -9,7 +9,15 @@ This repo provides a set of premade geometry nodes that can be dragged and dropp
 - **Wire generation layer** --- Connects sensors to connection ports for a microcontroller.
 
 ### Installation
-This repo is compatible with **Blender 4.5** and will not work with earlier releases.
+This repo is compatible with **Blender 5.1** and will not work with earlier releases. Use the follow commands to build the extension as a zip file that can be imported.
+
+```bash
+cd procedural_skins_addon
+blender --command extension build
+```
+Import the zip file via Edit > Preferences > Get Extensions > Install from Disk
+
+### Alternative Installation
 
 Each node is provided as an *Asset* and can be accessed through the *Asset Browser* in Blender. To add the nodes to the *Asset Browser*, include the path to the *procedural_skins_addon* through the following steps:
 1) Navigate to *Edit* > *Preferences*
@@ -17,4 +25,4 @@ Each node is provided as an *Asset* and can be accessed through the *Asset Brows
    ![Preferences image](../resources/preferences.png)
 
 ### Usage
-Open an asset browser tab and drag and drop the desired layers onto your CAD model. A more detailed tutorial on how to create a skin unit is found [here]().
+Open an asset browser tab and drag and drop the desired layers onto your CAD model. A more detailed tutorial on how to create a skin unit is found [here](https://www.youtube.com/watch?v=qH5VpunpglI).
