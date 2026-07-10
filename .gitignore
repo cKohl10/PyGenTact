@@ -7,3 +7,4 @@ procedural_skin_addon/modifiers/
 .env/
 *.zip
 procedural_skins_addon/*.blend1
+*.blend1
